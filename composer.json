@@ -10,8 +10,7 @@
     }
   ],
   "require-dev": {
-    "goatherd/phpcs_installer": "*",
-    "zendserverapi/zendserverapi": "*"
+    "phpunit/phpunit": "~5.1"
   },
   "require": {
     "cboden/ratchet": "0.3.4"

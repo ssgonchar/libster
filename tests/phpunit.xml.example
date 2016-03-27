@@ -1,0 +1,14 @@
+<testsuites>
+    <testsuite name="Application test suite">
+        <directory>ApplicationTest</directory>
+    </testsuite>
+</testsuites>
+<filter>
+<whitelist processUncoveredFilesFromWhitelist="true">
+    <directory suffix=".php">../src</directory>
+    <exclude>
+        <directory suffix=".php">../src/Application/Controller</directory>
+        <directory suffix=".php">../src/Application/Form</directory>
+    </exclude>
+</whitelist>
+</filter>
