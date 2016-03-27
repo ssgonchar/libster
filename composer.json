@@ -15,7 +15,20 @@
     "phpmd/phpmd": "~2.3"
   },
   "require": {
-    "cboden/ratchet": "0.3.4"
+    "cboden/ratchet": "0.3.4",
+    "symfony/http-kernel": "3.0.*",
+    "symfony/event-dispatcher": "3.0.*",
+    "symfony/options-resolver" : "3.0.*",
+    "symfony/routing" : "3.0.*",
+    "symfony/security" : "3.0.*",
+    "symfony/serializer" : "3.0.*",
+    "symfony/templating" : "3.0.*",
+    "rkr/php-mysql-query-builder" : "0.1.34.7",
+    "fuelphp/config" : "2.0.*",
+    "fuelphp/dependency":  "2.0.*",
+    "wisembly/elephant.io": "3.1.*",
+    "rase/socket.io-emitter":"0.7.*",
+    "hoa/websocket": "3.16.03.15"
   },
   "autoload": {
     "psr-4": {
