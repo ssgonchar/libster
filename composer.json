@@ -1,12 +1,21 @@
 {
-  "name": "vendor_name/package_name",
-  "description": "description_text",
+  "name": "libster/chat",
+  "description": "php components for messenger and chat system",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
-      "name": "author's name",
-      "email": "email@example.com"
+      "name": "Sergey Gonchar",
+      "email": "fingercrew2@gmail.com"
     }
-  ]
+  ],
+  "require": {
+    "cboden/ratchet": "0.3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Libster\\": "src/"
+    },
+    "exclude-from-classmap": ["/Tests/", "/test/", "/assets/"]
+  }
 }
