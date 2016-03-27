@@ -1,9 +1,8 @@
 language: php
 
 php:
-    - 5.4
-    - 5.5
     - 5.6
+    - 7.0
 
 env:
   - DB=mysql
@@ -21,6 +20,7 @@ cache:
 
 install:
     - travis_retry composer install --no-interaction --prefer-dist
+    - travis_retry composer update --prefer-dist
 
 before_install:
     - travis_retry composer self-update
