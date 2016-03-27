@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+	<title>Libster v1.0</title>
+    <parser>
+        <target>./build/doc/api/</target>
+    </parser>
+    <transformer>
+        <target>./build/doc/api/</target>
+    </transformer>
+    <files>
+        <directory>./src</directory>
+    </files>
+
+    <logging>
+        <level>warn</level>
+        <paths>
+            <default>./build/doc/api/log/{DATE}.log</default>
+            <errors>./build/doc/api/{DATE}.errors.log</errors>
+        </paths>
+    </logging>
+</phpdoc>

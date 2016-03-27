@@ -1,14 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="Libster Standard">
-
-    <!--
-       The name attribute of the ruleset tag is displayed
-       when running PHP_CodeSniffer with the -v command line
-       argument. The description tag below is not displayed anywhere
-       except in this file, so it can contain information for
-       developers who may change this file in the future.
-    -->
-    <description>Libster coding standard</description>
+<ruleset>
 
     <!-- 2. General -->
     <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
@@ -27,5 +18,4 @@
         <exclude name="PEAR.Commenting.FunctionComment.Missing"/>
         <exclude name="PEAR.Commenting.FunctionComment.ParameterCommentsNotAligned"/>
     </rule>
-
 </ruleset>
