@@ -9,9 +9,12 @@
       "email": "fingercrew2@gmail.com"
     }
   ],
+  "require-dev": {
+    "goatherd/phpcs_installer": "*",
+    "zendserverapi/zendserverapi": "*"
+  },
   "require": {
-    "cboden/ratchet": "0.3.4",
-    "phpcs": "5.4"
+    "cboden/ratchet": "0.3.4"
   },
   "autoload": {
     "psr-4": {
