@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "cboden/ratchet": "0.3.4"
+    "cboden/ratchet": "0.3.4",
+    "phpcs": "5.4"
   },
   "autoload": {
     "psr-4": {
